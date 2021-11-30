@@ -25,12 +25,9 @@ public class MainActivity extends AppCompatActivity {
             EditText txtNombre = (EditText) findViewById(R.id.txtNombre);
             EditText txtFecha = (EditText) findViewById(R.id.txtFecha);
             EditText txtTelefono = (EditText) findViewById(R.id.txtTelefono);
-
+//sirempre ponerlo dentro de un radio group
             radioMasculino = (RadioButton) findViewById(R.id.radioMasculino);
             RarioFemenino = (RadioButton) findViewById(R.id.RarioFemenino);
-
-
-
 
             //Creamos la información a pasar entre actividades - Pares Key-Value
             Bundle b = new Bundle();
@@ -55,9 +52,7 @@ public class MainActivity extends AppCompatActivity {
             // Iniciamos la nueva actividad
             startActivity(intent);
             //Nota: presionar alt+enter para importar las librerias
-
         }
 //Fin del cod
-
 
     }
