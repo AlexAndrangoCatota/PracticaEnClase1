@@ -14,10 +14,17 @@ public class MainActivity2 extends AppCompatActivity {
 
         //Localizar los controles
         TextView txtSaludo = (TextView)findViewById(R.id.txtSaludo);
+        TextView txtFechanaci = (TextView)findViewById(R.id.txtFechanaci);
+        TextView txtTelefo = (TextView)findViewById(R.id.txtTelefo);
+        TextView txtGenbero = (TextView)findViewById(R.id.txtGenbero);
         // //Recuperamos la información pasada en el intent
         Bundle bundle = this.getIntent().getExtras();
         // Construimos el mensaje a mostrar
         txtSaludo.setText("Hola!, Bienvenido \n " + bundle.getString("NOMBRE"));
+        txtFechanaci.setText("fecha de nacimiento \n " + bundle.getString("NOMBRE"));
+        txtTelefo.setText("Número de teléfono \n " + bundle.getString("NOMBRE"));
+        txtGenbero.setText("Género \n " + bundle.getString("NOMBRE"));
+
 
 
 

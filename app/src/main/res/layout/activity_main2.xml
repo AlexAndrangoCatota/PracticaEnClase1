@@ -8,14 +8,50 @@
 
     <TextView
         android:id="@+id/txtSaludo"
-        android:layout_width="363dp"
-        android:layout_height="196dp"
+        android:layout_width="371dp"
+        android:layout_height="74dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="112dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginBottom="295dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="417dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtFechanaci"
+        android:layout_width="371dp"
+        android:layout_height="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="233dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="296dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtTelefo"
+        android:layout_width="371dp"
+        android:layout_height="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="169dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtGenbero"
+        android:layout_width="371dp"
+        android:layout_height="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="487dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="42dp"
         android:textSize="20sp" />
 
     <TextView

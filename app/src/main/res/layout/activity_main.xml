@@ -8,6 +8,19 @@
 
 
     <TextView
+        android:id="@+id/lblNombre4"
+        android:layout_width="113dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="371dp"
+        android:layout_marginEnd="287dp"
+        android:layout_marginBottom="184dp"
+        android:text="Teléfono"
+        android:textSize="20sp" />
+
+    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,6 +46,32 @@
         android:text="Nombre:"
         android:textSize="20sp" />
 
+    <TextView
+        android:id="@+id/lblNombre2"
+        android:layout_width="113dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="283dp"
+        android:layout_marginBottom="337dp"
+        android:text="Género"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblNombre3"
+        android:layout_width="113dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="283dp"
+        android:layout_marginBottom="255dp"
+        android:text="Fecha Nacim."
+        android:textSize="20sp" />
+
     <EditText
         android:id="@+id/txtNombre"
         android:layout_width="wrap_content"
@@ -44,8 +83,33 @@
         android:layout_marginEnd="41dp"
         android:layout_marginBottom="444dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Ingrese su nombre" />
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="178dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="257dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/btnEnviar"
@@ -55,10 +119,36 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="134dp"
-        android:layout_marginTop="206dp"
-        android:layout_marginEnd="147dp"
-        android:layout_marginBottom="330dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="482dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="54dp"
         android:onClick="btEnviar"
         android:text="Enviar" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="371dp"
+        android:text="Masculino" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="308dp"
+        android:text="Femenino" />
 </RelativeLayout>
