@@ -15,22 +15,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void btEnviar(View view) {
-        //Creamos el Intent
-        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+        public void btEnviar(View view) {
+            //Creamos el Intent
+            Intent intent = new Intent(MainActivity.this, MainActivity2.class);
 
-        EditText txtNombre = (EditText) findViewById(R.id.txtNombre);
+            EditText txtNombre = (EditText) findViewById(R.id.txtNombre);
 
-        //Creamos la información a pasar entre actividades - Pares Key-Value
-        Bundle b = new Bundle();
-        b.putString("NOMBRE", txtNombre.getText().toString());
-        //Añadimos la información al intent
-        intent.putExtras(b);
-        // Iniciamos la nueva actividad
-        startActivity(intent);
-        //Nota: presionar alt+enter para importar las librerias
+            //Creamos la información a pasar entre actividades - Pares Key-Value
+            Bundle b = new Bundle();
+            b.putString("NOMBRE", txtNombre.getText().toString());
+            //Añadimos la información al intent
+            intent.putExtras(b);
+            // Iniciamos la nueva actividad
+            startActivity(intent);
+            //Nota: presionar alt+enter para importar las librerias
 
-    }
-
+        }
+//Fin del cod
 
     }
