@@ -126,29 +126,37 @@
         android:onClick="btEnviar"
         android:text="Enviar" />
 
-    <com.google.android.material.chip.ChipGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
 
-    </com.google.android.material.chip.ChipGroup>
-
-    <RadioButton
-        android:id="@+id/radioButton"
+    <RadioGroup
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="120dp"
-        android:layout_marginBottom="371dp"
-        android:text="Masculino" />
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="318dp">
 
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="120dp"
-        android:layout_marginBottom="308dp"
-        android:text="Femenino" />
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <RadioButton
+            android:id="@+id/radioMasculino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/RarioFemenino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Femenino" />
+    </RadioGroup>
+
+
 </RelativeLayout>
